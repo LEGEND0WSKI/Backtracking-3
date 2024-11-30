@@ -1,11 +1,11 @@
 # // Time Complexity :O(n!*3n) for permutations and O(n) for safety
 # // Space Complexity :O(n^2) for board, stack
 # // Did this code successfully run on Leetcode : Yes
-# // Any problem you faced while coding this : 
+# // Any problem you faced while coding this :No 
 
 # we need a Boolean Board to keep track of queens and recursion.
 class Solution:
-    def solveNQueens(self, n: int) -> List[List[str]]:
+    def solveNQueens(self, n: int) -> list[list[str]]:
         result = []
         board = [[False] * n for _ in range(n)] #init board as False
 
